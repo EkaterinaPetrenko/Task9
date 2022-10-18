@@ -1,0 +1,73 @@
+body{
+    vertical-align: middle;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 100px auto;
+    display: inline-block;
+    padding: 0;
+    border: 2px solid black;
+    width: 90%;
+    height: 75%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background:  #c0d7f459;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.card-header {
+    background:  #7db4f8b1;
+}
+
+.col {
+    justify-content: space-between;
+}
+
+button {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    display: inline-flex;
+    color: #fff;
+    background: #6d95e0;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.butPlace {
+    margin: 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #7e70d3;
+}
+
+button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: #450fcd;
+}
+
+.copyright {
+    color: rgb(13, 3, 41);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-size: 0.7rem;
+}
